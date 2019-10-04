@@ -20,4 +20,4 @@ struct ListNOde *getIntersectionNode(struct ListNode *headA, struct ListNode *he
         q = (q ? q->next : headA);
     }
     return p;
-}
+} // 补成长度相等，这样比较ok
